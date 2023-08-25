@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .halo,
+    .muncul {
+      text-align: center;
+    }
+
+    .muncul {
+      margin-top: 50px;
+      width: 50px;
+      height: 50px;
+      border: 2px solid black;
+      margin-left: 200px;
+      display: none;
+    }
+  </style>
+  <body>
+    <div id="halo" class="halo">
+      <button onclick="tombol()">tombol</button>
+    </div>
+
+    <div id="muncul" class="muncul">ajasih</div>
+    <script>
+      var muncul = document.getElementById("muncul");
+      var hilang = document.getElementById("halo");
+
+      function even() {}
+
+      function tombol() {
+        hilang.style.display = "none";
+
+        if ((hilang.style.display = "none")) {
+          muncul.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
